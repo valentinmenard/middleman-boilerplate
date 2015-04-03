@@ -24,7 +24,7 @@ $base-height: 1.4;
  * Colors
  * ------------------------------------- */
 // Scheme
-$red: #DE7674;
+$red: lighten(#D9534F,10%);
 $blue: #469AE0;
 $yellow: #FDB631;
 $orange: #E67E22;
@@ -43,8 +43,8 @@ $positive-scale: 1.7;
 $negative-scale: 0.9;
 $heavy-opacity: 0.6;
 $light-opacity: 0.8;
-$transition-duration: 0.5s;
-$blur: 7px;
+$transition-duration: 2s;
+$blur: 0px;
 $padding-top: 8em;
 $padding-bottom: 8em;
 

@@ -1,0 +1,6 @@
+- name: Valentin
+  image: valentin.jpg
+  content: Dev
+- name: Romain
+  image: romain.jpg
+  content: Biz

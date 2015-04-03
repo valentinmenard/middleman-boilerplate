@@ -1,5 +1,10 @@
 #banner {
-  background-image: image-url('restaurant.jpg');
+  background:
+   linear-gradient(
+     rgba(0, 0, 0, 0.2),
+     rgba(0, 0, 0, 0.2)
+     ),
+   image-url("restaurant.jpg");
   padding:300px 90px;
 }
 
