@@ -3785,23 +3785,23 @@ select[multiple].input-lg,
 /* line 79, /Users/valentinmenard/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-danger {
   color: #fff;
-  background-color: #EE5F5B;
-  border-color: #ec4844; }
+  background-color: #DE7674;
+  border-color: #d9625f; }
   /* line 11, /Users/valentinmenard/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-danger:hover, .btn-danger:focus, .btn-danger.focus, .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
     color: #fff;
-    background-color: #e9322d;
-    border-color: #dc1c17; }
+    background-color: #d44d4b;
+    border-color: #cb3330; }
   /* line 21, /Users/valentinmenard/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
     background-image: none; }
   /* line 29, /Users/valentinmenard/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-danger.disabled, .btn-danger.disabled:hover, .btn-danger.disabled:focus, .btn-danger.disabled.focus, .btn-danger.disabled:active, .btn-danger.disabled.active, .btn-danger[disabled], .btn-danger[disabled]:hover, .btn-danger[disabled]:focus, .btn-danger[disabled].focus, .btn-danger[disabled]:active, .btn-danger[disabled].active, fieldset[disabled] .btn-danger, fieldset[disabled] .btn-danger:hover, fieldset[disabled] .btn-danger:focus, fieldset[disabled] .btn-danger.focus, fieldset[disabled] .btn-danger:active, fieldset[disabled] .btn-danger.active {
-    background-color: #EE5F5B;
-    border-color: #ec4844; }
+    background-color: #DE7674;
+    border-color: #d9625f; }
   /* line 40, /Users/valentinmenard/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-danger .badge {
-    color: #EE5F5B;
+    color: #DE7674;
     background-color: #fff; }
 
 /* line 88, /Users/valentinmenard/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
@@ -5253,10 +5253,10 @@ a.label:hover, a.label:focus {
 
 /* line 64, /Users/valentinmenard/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_labels.scss */
 .label-danger {
-  background-color: #EE5F5B; }
+  background-color: #DE7674; }
   /* line 7, /Users/valentinmenard/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_labels.scss */
   .label-danger[href]:hover, .label-danger[href]:focus {
-    background-color: #e9322d; }
+    background-color: #d44d4b; }
 
 /* line 7, /Users/valentinmenard/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_badges.scss */
 .badge {
@@ -5532,7 +5532,7 @@ a.thumbnail.active {
 
 /* line 85, /Users/valentinmenard/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress-bar-danger {
-  background-color: #EE5F5B; }
+  background-color: #DE7674; }
   /* line 7, /Users/valentinmenard/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
   .progress-striped .progress-bar-danger {
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -9249,6 +9249,27 @@ button.close {
  * Before writing in this file, look if there is not
  * already a Bootstrap SCSS variable that does the same job
  * ------------------------------------- */
+/* line 9, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_base.css.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #141414; }
+
+/* line 13, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_base.css.scss */
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif; }
+
+/* line 2, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_footer.css.scss */
+#footer {
+  font-size: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px; }
+
+/* line 9, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_footer.css.scss */
+#footer h2 {
+  color: white;
+  margin: 0; }
+
 /* -------------------------------------
  * Colors & Fonts
  * ------------------------------------- */
@@ -9266,7 +9287,7 @@ button.close {
  * ------------------------------------- */
 /* line 38, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_navbar.css.scss */
 .navbar-wagon {
-  background: white;
+  background: transparent;
   font-family: "Montserrat", "sans-serif";
   border: none;
   font-weight: 400;
@@ -9281,7 +9302,7 @@ button.close {
   .navbar-wagon .navbar-nav > li > a:focus,
   .navbar-wagon .navbar-nav > .open > a:focus {
     outline: none;
-    color: black;
+    color: white;
     line-height: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -9299,7 +9320,7 @@ button.close {
   .navbar-wagon .navbar-brand,
   .navbar-wagon .navbar-brand:hover {
     outline: none;
-    color: black;
+    color: white;
     padding-top: 5px;
     padding-bottom: 5px; }
   /* line 79, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_navbar.css.scss */
@@ -9361,7 +9382,7 @@ button.close {
   /* line 143, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand, .navbar-wagon .navbar-brand:hover {
     display: block;
-    color: black;
+    color: white;
     padding-top: 0;
     padding-bottom: 0; } }
 /* -------------------------------------
@@ -9369,40 +9390,94 @@ button.close {
  * These are examples of utilities classes
  * Feel free to change them and create your own
  * ------------------------------------- */
-/* line 7, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+/* line 8, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+.transition-duration {
+  transition: all 0.5s ease; }
+
+/* line 12, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+.hover-positivescale:hover {
+  transform: scale(1.7); }
+
+/* line 16, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+.hover-negativescale:hover {
+  transform: scale(0.9); }
+
+/* line 20, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+.heavy-opacity {
+  opacity: 0.6; }
+
+/* line 24, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+.light-opacity {
+  opacity: 0.8; }
+
+/* line 28, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+.cursor-pointer {
+  cursor: pointer; }
+
+/* line 32, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+.blur {
+  -webkit-filter: blur(7px); }
+
+/* line 36, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
 .padded {
   padding-top: 8em;
   padding-bottom: 8em; }
 
-/* line 11, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+/* line 40, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
 .bg-red {
-  background: #EE5F5B;
+  background: #DE7674;
   color: white; }
 
-/* line 15, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+/* line 44, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
 .bg-blue {
   background: #469AE0;
   color: white; }
 
-/* line 19, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+/* line 48, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
 .bg-yellow {
   background: #FDB631;
   color: white; }
 
-/* line 23, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+/* line 52, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
 .bg-orange {
   background: #E67E22;
   color: white; }
 
-/* line 27, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+/* line 56, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
 .bg-green {
   background: #32B796;
   color: white; }
 
-/* line 31, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+/* line 60, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
 .bg-purple {
   background: #6452BD;
   color: white; }
+
+/* line 1, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/components/_image.css.scss */
+.image-hover-unblur:hover {
+  -webkit-filter: blur(0px);
+  opacity: 1; }
+
+/* line 1, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+#banner {
+  background-image: url("../images/restaurant.jpg");
+  padding: 300px 90px; }
+
+/* line 6, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+#features {
+  color: white;
+  padding: 30px; }
+
+/* line 11, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+#form h2 {
+  color: #969696;
+  margin: 0;
+  line-height: 1.7; }
+
+/* line 17, /Users/valentinmenard/code/valentinmenard/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+#form p {
+  color: #969696;
+  line-height: 1.8; }
 
 /*
 ==============================================
