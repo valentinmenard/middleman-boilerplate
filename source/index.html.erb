@@ -2,27 +2,27 @@
 title: Le Wagon Middleman boilerplate
 ---
 
-<div id="banner">
-    <button  class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">GET NEEDL</button>
+  <div id="banner" class="text-center light-opacity">
+    <button class="btn btn-danger btn-lg transition-duration hover-positivescale cursor-pointer" data-toggle="modal" data-target="#myModal">GET NEEDL</button>
 
   </div>
 
-  <div class="bg-rouge">
+  <div class="bg-danger">
     <div class="container">
       <div id="features" class="text-center">
         <div class="row">
           <div class="col-xs-12 col-md-4">
-            <%= image_tag "friends.png" %>
+            <%= image_tag "friends.png", class: "transition-duration heavy-opacity cursor-pointer blur hover-negativescale image-hover-unblur"%>
             <h3>Amis</h3>
             <p>Vos meilleurs amis en guise de testeurs</p>
           </div>
           <div class="col-xs-12 col-md-4">
-            <%= image_tag "rest.png" %>
+            <%= image_tag "rest.png", class: "transition-duration heavy-opacity cursor-pointer blur hover-negativescale image-hover-unblur"%>
             <h3>Restaurants</h3>
             <p>Qui vous livrent leurs restaurants préférés</p>
           </div>
           <div class="col-xs-12 col-md-4">
-            <%= image_tag "map.png" %>
+            <%= image_tag "map.png", class: "transition-duration heavy-opacity cursor-pointer blur hover-negativescale image-hover-unblur"%>
             <h3>Carte</h3>
             <p>Géolocalisés sur votre carte de Paris</p>
           </div>
@@ -32,7 +32,7 @@ title: Le Wagon Middleman boilerplate
    </div>
 
   <div class="container">
-    <div id="form" class="text-center">
+    <div id="form" class="text-center padded">
       <h2>Soyez testeurs de la Béta</h2>
       <p>Soyez le premier à avoir des nouvelles de Needl</p>
       <form action='/' class="form-inline">

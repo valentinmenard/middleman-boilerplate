@@ -3,9 +3,38 @@
  * These are examples of utilities classes
  * Feel free to change them and create your own
  * ------------------------------------- */
+
+.transition-duration {
+  transition: all $transition-duration ease;
+}
+
+.hover-positivescale:hover {
+  transform : scale($positive-scale);
+}
+
+.hover-negativescale:hover {
+  transform : scale($negative-scale);
+}
+
+.heavy-opacity {
+  opacity: $heavy-opacity;
+}
+
+.light-opacity {
+  opacity: $light-opacity;
+}
+
+.cursor-pointer {
+  cursor:pointer;
+}
+
+.blur {
+  -webkit-filter: blur($blur);
+}
+
 .padded {
-  padding-top: 8em;
-  padding-bottom: 8em;
+  padding-top: $padding-top;
+  padding-bottom: $padding-bottom;
 }
 .bg-red {
   background: $red;
