@@ -2,9 +2,42 @@
 title: Le Wagon Middleman boilerplate
 ---
 
-<div class="welcome text-center padded">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+<div id="banner">
+    <button  class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">GET NEEDL</button>
+
+  </div>
+
+  <div class="bg-rouge">
+    <div class="container">
+      <div id="features" class="text-center">
+        <div class="row">
+          <div class="col-xs-12 col-md-4">
+            <%= image_tag "friends.png" %>
+            <h3>Amis</h3>
+            <p>Vos meilleurs amis en guise de testeurs</p>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <%= image_tag "rest.png" %>
+            <h3>Restaurants</h3>
+            <p>Qui vous livrent leurs restaurants préférés</p>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <%= image_tag "map.png" %>
+            <h3>Carte</h3>
+            <p>Géolocalisés sur votre carte de Paris</p>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+
+  <div class="container">
+    <div id="form" class="text-center">
+      <h2>Soyez testeurs de la Béta</h2>
+      <p>Soyez le premier à avoir des nouvelles de Needl</p>
+      <form action='/' class="form-inline">
+        <input type="email" class="form-control" placeholder="votre email">
+        <input type="submit" value="Ici" class="btn btn-danger">
+      </form>
+    </div>
+  </div>
