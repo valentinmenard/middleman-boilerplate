@@ -1,6 +1,15 @@
 $(document).ready(function() {
   $(".window-height").css("height", $(window).height());
 
+  $(window).scroll(function(e){
+    if ($(this).scrollTop() > 600) {
+      $(".navbar").fadeOut();
+    }
+    else {
+      $(".navbar").fadeIn();
+    }
+  });
+
 
   $(function() {
     $('a[href*=#]:not([href=#])').click(function() {
